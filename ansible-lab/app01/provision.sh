@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "Adcionando as chaves SSH"
+cat << EOF >> /home/vagrant/.ssh/authorized_keys
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD8LCFccuTNNKkhjWl/NeC4Yf/5kTewY+JD9ccCCkHgSQ7TXhQhv+6D6S+zghNS0ewQw9/dVH46mY/5BXrh5UDqq4A5xMSTFm0Oe68hgERzblTGCzil0KF2FQpuANEN1af2gj78B/+2nFwkU9F58E90C9y8jrSyUNVT3AkHw6pHuHX+NYRIoRbT2FaMhCKRzvpE3bbINS6U5UYSTv02I+PtV4pfh1dMPXrfZMe3XxHdo0RriqJxphtu5CFG6dS5le7/iSV/5/gXIG2bNgHTkae9reb4I5x5wxcX9wmAfJp57RgjdQuzN3v+Drdj8G4Or3qXIKvrOFVZvbJVfIOXhBk9 vagrant@control-node
+EOF
