@@ -6,5 +6,5 @@ mysql_databases:
 mysql_users:
   - name: notes
     host: "%"
-    password: senhaforte
+    password: devops
     priv: "notes_db.*:ALL"

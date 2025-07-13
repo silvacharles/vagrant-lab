@@ -1,2 +1,3 @@
 Ignora arquivos do Vagrant
 .vagrant/
+.DS_Store
